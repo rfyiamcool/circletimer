@@ -1,12 +1,3 @@
-# circletimer
-
-call timeAfterFunc() automatically every duration.
-
-![](design.jpg)
-
-## Usage
-
-```go
 package main
 
 import (
@@ -46,4 +37,3 @@ func main() {
 	time.Sleep(3 * time.Second)
 	fmt.Println(atomic.LoadInt32(&incr))
 }
-```
